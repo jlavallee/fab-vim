@@ -32,7 +32,7 @@ syn region fabString start="\"" end="\""
 
 " number literals
 syn match fabInteger "\<\d\+\>"
-syn match fabReal "\<\d\+\.\d\+\>"
+syn match fabReal "\<\d\+\.\d\*\>"
 
 " map fab groups to standard groups
 hi link fabFunction Function
