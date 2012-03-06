@@ -10,7 +10,7 @@ endif
 syn keyword fabKeyword by do exit for loop of read return to while write
 syn keyword fabConditional else elseif if then
 syn keyword fabFunction func
-syn keyword fabStorageClass const extends
+syn keyword fabStorageClass extends
 syn keyword fabRecord record
 
 syn keyword fabOperator div mod or and not
@@ -20,6 +20,7 @@ syn keyword fabType real integer boolean unit
 " TODO: handle array type expressions
 
 syn keyword fabVar var nextgroup=fabVarName skipwhite
+syn keyword fabVar const nextgroup=fabVarName skipwhite
 syn match fabVarName "[a-zA-Z][a-zA-Z0-9]*" contained
 
 " boolean literals
