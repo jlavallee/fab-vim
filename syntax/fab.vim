@@ -8,7 +8,7 @@ endif
 
 " fab keywords
 syn keyword fabKeyword by do exit for loop of read return to while write
-syn keyword fabConditional else elseif if then
+syn keyword fabConditional else elsif if then
 syn keyword fabFunction func
 syn keyword fabStorageClass extends
 syn keyword fabRecord record
